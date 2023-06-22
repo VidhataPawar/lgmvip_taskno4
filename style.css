@@ -1,0 +1,110 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    font-size: 15px;
+}
+
+body {
+    background-color: black;
+
+
+}
+
+td {
+    padding: 15px;
+
+}
+
+input[type=button] {
+    width: 60px;
+    height: 60px;
+    border-radius: 12px;
+    font-size: 20px;
+}
+
+input[type=button]:hover {
+    box-shadow: 2px 2px 30px white;
+}
+
+
+
+input[type=text] {
+    width: 455px;
+    height: 70px;
+    font-size: 25px;
+    background-color: rgb(156, 197, 156);
+}
+
+.content {
+    position: relative;
+    top: 130px;
+
+}
+
+h1 {
+    position: relative;
+    top: 45px;
+    font-size: 50px;
+    font-family: Century Gothic;
+    color: white;
+    width: 400px;
+
+}
+
+h2 {
+    position: relative;
+    top: 75px;
+    right: 170px;
+    width: 400px;
+    font-size: 18px;
+    font-family: Century Gothic;
+    color: white;
+
+}
+
+.edition {
+    position: relative;
+    left: 185px;
+    top: 55px;
+    width: 400px;
+    font-size: 18px;
+    font-family: Century Gothic;
+    color: white;
+
+
+}
+
+
+
+.maincontent {
+    position: relative;
+    bottom: 90px;
+    border: 2px solid black;
+    width: 500px;
+    height: 700px;
+    border-radius: 25px;
+    text-align: center;
+    color: white;
+    box-shadow: 2px 2px 30px white;
+}
+
+.AC {
+    background-color: rgb(173, 32, 96);
+    color: white;
+
+}
+
+.Clear {
+    background-color: rgb(173, 32, 96);
+    color: white;
+    font-size: 0px;
+}
+
+.sign {
+    background-color: rgb(191, 222, 77);
+    color: black;
+}
+
+.movecontent {
+    width: 650px;
+}

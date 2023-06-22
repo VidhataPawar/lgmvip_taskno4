@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+
+    <center>
+        <div class="movecontent">
+            <h1>CASIO</h1>
+            <h2>fx-991ES PLUS</h2>
+            <h3 class="edition">2nd Edition</h3>
+            <div class="maincontent">
+                <div class="content">
+
+                    <form name="Cal">
+
+                        <table height="100" width="10">
+                            <tr>
+                                <td colspan="4"><input type="text" name="answer" class="a1"></td>
+                            </tr>
+                            <tr>
+                                <td><input type="button" class="AC" value="AC" onclick="Cal.answer.value=''"></td>
+                                <td><input type="button" class="Clear" value="⌫"
+                                        onclick="Cal.answer.value=Cal.answer.value.substr(0,Cal.answer.value.length-1)">
+                                </td>
+                                <td><input type="button" class="sign" value="%" onclick="Cal.answer.value+='%'"></td>
+                                <td><input type="button" class="sign" value="/" onclick="Cal.answer.value+='/'"> </td>
+                            </tr>
+                            <tr>
+                                <td><input type="button" value="7" onclick="Cal.answer.value+=7"></td>
+                                <td><input type="button" value="8" onclick="Cal.answer.value+=8"></td>
+                                <td><input type="button" value="9" onclick="Cal.answer.value+=9"></td>
+                                <td><input type="button" class="sign" value="x" onclick="Cal.answer.value+='*'"></td>
+                            </tr>
+                            <tr>
+                                <td><input type="button" value="6" onclick="Cal.answer.value+=6"></td>
+                                <td><input type="button" value="5" onclick="Cal.answer.value+=5"></td>
+                                <td><input type="button" value="4" onclick="Cal.answer.value+=4"></td>
+                                <td><input type="button" class="sign" value="-" onclick="Cal.answer.value+='-'"></td>
+                            </tr>
+                            <tr>
+                                <td><input type="button" value="1" onclick="Cal.answer.value+=6"></td>
+                                <td><input type="button" value="2" onclick="Cal.answer.value+=5"></td>
+                                <td><input type="button" value="3" onclick="Cal.answer.value+=4"></td>
+                                <td><input type="button" class="sign" value="+" onclick="Cal.answer.value+='+'"></td>
+                            </tr>
+                            <tr>
+                                <td><input type="button" value="00" onclick="Cal.answer.value+='0'"></td>
+                                <td><input type="button" value="0" onclick="Cal.answer.value+='0'"></td>
+                                <td><input type="button" value="." onclick="Cal.answer.value+='.'"></td>
+                                <td><input type="button" class="sign" value="="
+                                        onclick="Cal.answer.value=eval(Cal.answer.value)"></td>
+                            </tr>
+
+
+                        </table>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </center>
+</body>
+
+</html
